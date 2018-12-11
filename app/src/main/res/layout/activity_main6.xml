@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    tools:context="layout.xml.Main6Activity">
+
+    <ScrollView
+        android:layout_width="400dp"
+        android:layout_height="600dp"
+        android:paddingLeft="130dp"
+        android:paddingTop="170dp"
+        android:paddingBottom="50dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+
+            <ImageButton
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:onClick="brushaudio"
+                android:src="@drawable/brush" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="20dp"
+                android:onClick="exerciseaudio"
+                android:src="@drawable/exercise" />
+
+            <ImageButton
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="20dp"
+                android:onClick="danceaudio"
+                android:src="@drawable/dance" />
+
+            <ImageButton
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_marginTop="20dp"
+                android:onClick="batheaudio"
+                android:src="@drawable/bath" />
+
+            <ImageButton
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_marginTop="20dp"
+                android:onClick="paintaudio"
+                app:srcCompat="@drawable/paint" />
+
+            <ImageButton
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_marginTop="20dp"
+                android:onClick="readaudio"
+                android:src="@drawable/read" />
+
+            <ImageButton
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_marginTop="20dp"
+                android:onClick="sleepaudio"
+                android:src="@drawable/sleep" />
+
+            <ImageButton
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_marginTop="20dp"
+                android:onClick="walk"
+                android:src="@drawable/walking" />
+
+            <ImageButton
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_marginTop="20dp"
+                android:onClick="toilet"
+                android:src="@drawable/toilet" />
+
+            <ImageButton
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_marginTop="20dp"
+                android:onClick="sing"
+                android:src="@drawable/sing" />
+
+            <ImageButton
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_marginTop="20dp"
+                android:onClick="video"
+                android:src="@drawable/video" />
+
+            <ImageButton
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_marginTop="20dp"
+                android:onClick="shop"
+                android:src="@drawable/shopping" />
+
+            <ImageButton
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_marginTop="20dp"
+                android:onClick="tv"
+                android:src="@drawable/tv" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

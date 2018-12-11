@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    tools:context="layout.xml.Main5Activity"
+    >
+
+
+    <ScrollView
+        android:layout_width="400dp"
+        android:layout_height="600dp"
+        android:paddingLeft="100dp"
+        android:paddingTop="180dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+
+            <ImageButton
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:onClick="biscuitsaudio"
+                android:src="@drawable/biscuit" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="20dp"
+                android:onClick="fruitsaudio"
+                android:src="@drawable/fruits" />
+
+            <ImageButton
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="20dp"
+                android:onClick="eggsaudio"
+                android:src="@drawable/egg" />
+
+            <ImageButton
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_marginTop="20dp"
+                android:onClick="juiceaudio"
+                android:src="@drawable/juice" />
+
+            <ImageButton
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_marginTop="20dp"
+                android:onClick="pizzaaudio"
+                android:src="@drawable/pizza"
+                app:srcCompat="@drawable/paint" />
+
+
+            <ImageButton
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_marginTop="20dp"
+                android:onClick="icecreamaudio"
+                android:src="@drawable/icecream" />
+
+            <ImageButton
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_marginTop="20dp"
+                android:onClick="chickenaudio"
+                android:src="@drawable/chicken" />
+
+            <ImageButton
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_marginTop="20dp"
+                android:onClick="wateraudio"
+                android:src="@drawable/water" />
+
+            <ImageButton
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_marginTop="20dp"
+                android:onClick="cakeaudio"
+                android:src="@drawable/cake" />
+
+            <ImageButton
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_marginTop="20dp"
+                android:onClick="driedfruitsaudio"
+                android:src="@drawable/driedfruits" />
+
+
+            <ImageButton
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_marginTop="20dp"
+                android:onClick="chocaudio"
+                android:src="@drawable/choc" />
+
+            <ImageButton
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_marginTop="20dp"
+                android:onClick="cheeseaudio"
+                android:src="@drawable/cheese" />
+
+            <ImageButton
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_marginTop="20dp"
+                android:onClick="soupaudio"
+                android:src="@drawable/soup" />
+
+
+            <ImageButton
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_marginTop="20dp"
+                android:onClick="milkaudio"
+                android:src="@drawable/milk" />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>
+
+
+
+

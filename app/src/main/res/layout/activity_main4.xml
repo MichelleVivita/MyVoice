@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg3"
+    tools:context="layout.xml.Main4Activity">
+
+
+    <ScrollView
+        android:layout_width="400dp"
+        android:layout_height="600dp"
+        android:paddingTop="150dp"
+        android:paddingLeft="180dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            >
+
+
+            <ImageButton
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/happy"
+                android:onClick="happyaudio"/>
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/sad"
+                android:onClick="sadaudio" />
+
+            <ImageButton
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/loved"
+                android:onClick="lovedaudio"/>
+
+            <ImageButton
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/angry"
+                android:onClick="angryaudio"/>
+
+            <ImageButton
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/sick"
+                android:onClick="sickaudio"/>
+
+            <ImageButton
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/nervous"
+                android:onClick="nervousaudio"/>
+
+            <ImageButton
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/excited"
+                android:onClick="excitedaudio"/>
+
+            <ImageButton
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/embarrased"
+                android:onClick="embarrasedaudio"/>
+
+
+            <ImageButton
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/shy"
+                android:onClick="shyaudio"/>
+
+
+            <ImageButton
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/tired"
+                android:onClick="tiredaudio"/>
+
+
+            <ImageButton
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/afraid"
+                android:onClick="afraidaudio"/>
+
+            <ImageButton
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/ashamed"
+                android:onClick="ashamedaudio"/>
+
+            <ImageButton
+                 android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/guilty"
+                android:onClick="guiltyaudio"/>
+
+            <ImageButton
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/grateful"
+                android:onClick="gratefulaudio"/>
+            <ImageButton
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/surprised"
+                android:onClick="surprisedaudio"/>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>
