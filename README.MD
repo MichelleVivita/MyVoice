@@ -5,4 +5,5 @@ Children with Autism Spectrum Disorder (ASD) can find it hard to relate to and c
 In essence, MyVoice serves as a link between the mind of the autistic child and the people around him/her. The world will advance, only when people with varied social environments can voice their thoughts. Thus, MyVoice aims at stimulating dialogue between neurotypical and autistic individuals capturing the magic of their uniqure minds.
 
 This idea was implemented in InGenius 2017, PESIT-BSC.
-Collaborator : [Pranav Kumar]https://github.com/Pranavkumar30
+
+Collaborator : [Pranav Kumar](https://github.com/Pranavkumar30)
